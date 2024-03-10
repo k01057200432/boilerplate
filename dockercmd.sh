@@ -1,0 +1,1 @@
+sudo docker run -p 3306:3306 --detach --name mariadb --env MARIADB_USER=boilerplate --env MARIADB_PASSWORD=boilerplate1234 --env MARIADB_DATABASE=boilerplate --env MARIADB_ROOT_PASSWORD=boilerplate1234  mariadb:latest 
